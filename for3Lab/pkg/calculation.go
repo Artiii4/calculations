@@ -5,7 +5,7 @@ import (
 )
 
 func recursiveSearching(n int64) int64 {
-	var result int64
+	var result int64 = 1
 	if n == 1 {
 		return result
 	} else {
