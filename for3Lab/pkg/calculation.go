@@ -26,6 +26,6 @@ func Calculate(n int64, check bool) int64 {
 		fmt.Println("Start calculations...\nCalculate <", n, ">!")
 	}
 	result := recursiveSearching(n)
-	fmt.Println(result)
+	fmt.Println("Calculations complete!")
 	return result
 }
